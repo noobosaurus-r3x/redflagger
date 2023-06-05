@@ -2,7 +2,7 @@
 
 RedFlagger is a bash script designed to download and aggregate reports from 'https://dl.red.flag.domains/daily/' based on user-specified conditions.
 
-It is inspierd by NewRedflag, a python script written by lil-doudou
+It is inspired by NewRedflag, a python script written by lil-doudou.
 
 https://github.com/lil-doudou/NewRedflag
 

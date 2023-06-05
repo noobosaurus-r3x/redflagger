@@ -21,12 +21,16 @@ https://github.com/lil-doudou/NewRedflag
 
 ### Examples
 
-Download the report from 3 days ago and all available reports, saving them to 'my_file.txt':
+Download all the reports available since 3 days ago, saving them to 'my_file.txt':
 
 ```./redflagger.sh -d 3 -a -o my_file.txt```
 
 Download all available reports, saving them to 'my_file.txt':
 
 ```./redflagger.sh -a -o my_file.txt```
+
+Download the reports from 3 days ago, saving them to 'my_file.txt':
+
+```./redflagger.sh -d 3 -o my_file.txt```
 
 

@@ -53,8 +53,8 @@ for link in $links; do
             fi
 
             echo "Downloading: $link"
-            curl -s "https://dl.red.flag.domains/daily/$link" >> "$output_file"
-            if [[ $? -ne 0 ]]; then
+            if ! curl -s "https://dl.red.flag.domains/daily/$link" >> "$output_file" 2>/dev/null ;
+            then
                 echo "Failed to download $link. Continuing with the next one."
                 continue
             fi

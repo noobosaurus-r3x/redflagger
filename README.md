@@ -4,7 +4,7 @@ https://github.com/lil-doudou/NewRedflag
 
 The point to that script is to make a wordlist based on the latest domains found on https://red.flag.domains/
 
-Usage: ```./redflagger.sh --latest|--days [num] --all [--output [filename]]```
+### Usage: ```./redflagger.sh --latest|--days [num] --all [--output [filename]]```
 
 Example: ```./reflagger.sh -d 3 -a -o my_file.txt``` 
 

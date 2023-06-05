@@ -2,7 +2,7 @@
 
 # Usage: ./redflagger.sh --latest|--days [num] --all [--output [filename]]
 # Example: ./reflagger.sh -d 3 -a -o my_file.txt #This will download the report from 3 days ago and all available reports, saving them to my_file.txt
-           ./redflagger.sh -a -o my_file.txt #This will download all available reports, saving them to my_file.txt
+# Example2:./redflagger.sh -a -o my_file.txt #This will download all available reports, saving them to my_file.txt
 
 
 

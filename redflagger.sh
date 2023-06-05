@@ -47,7 +47,7 @@ declare -A downloaded_links
 for link in $links; do
     if [[ $link =~ ^[0-9]{4} ]]; then
         if [[ $link == *"$date"* || "$all" == "true" ]]; then
-            # Skip if this link was previously downloaded
+            
             if [[ ${downloaded_links[$link]} == "true" ]]; then
                 continue
             fi
